@@ -10,14 +10,19 @@ int main() {
     // for(int i=0;i<v.size();i++){
     //     cout<<v[i]<<endl;
     // }
-    // int a[5]={1,2,3,4,5};
-    // vector<int> v(a,a+5);
+    // int a[5]={12,13,14,15};
+    // vector<int> v(a,a+4);
+    // cout<<v[3]<<endl;
     // for(int i=0;i<v.size();i++){
     //     cout<<v[i]<<endl;
     // }
-    vector<int> v={1,2,3,4,5};
+    // vector<int> v={1,2,3,4,5};
+    // for(int i;i<v.size();i++){
+    //     cout<<v[i]<<endl;
+    vector<int> v={1,2,3,4};
+    v.resize(2);
+    v.resize(4);
     for(int i;i<v.size();i++){
-        cout<<v[i]<<endl;
-    }
+        cout<<v[i]<<endl;}
     return 0;
 }
