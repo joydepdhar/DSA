@@ -19,7 +19,7 @@ int main() {
     // vector<int> v={1,2,3,4,5};
     // for(int i;i<v.size();i++){
     //     cout<<v[i]<<endl;
-    vector<int> v={1,2,3,4};
+    vector<int> v={1,2,3,4,5,6,7,8,9};
     v.resize(2);
     v.resize(4);
     for(int i;i<v.size();i++){
