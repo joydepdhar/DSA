@@ -22,6 +22,8 @@ void printList(Node* head) {
     }
     cout << endl;
 }
+
+
 void insertTail(Node* &head,long long val) {
     Node* newNode = new Node(val);
 

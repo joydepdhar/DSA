@@ -33,9 +33,9 @@ int main() {
         cout << 0;
         return 0;
     }
-    int mn = head->val;
-    int mx = head->val;
-    Node* temp = head;
+    int mn=head->val;
+    int mx=head->val;
+    Node* temp=head;
     while (temp != nullptr) {
         mn=min(mn, temp->val);
         mx=max(mx, temp->val);
