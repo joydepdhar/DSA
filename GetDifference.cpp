@@ -20,6 +20,7 @@ int main() {
         if(n==-1){
             break;
         }else{
+            
           Node* newNode = new Node(n);
         if (head == nullptr) {
             head = tail = newNode;
