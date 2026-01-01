@@ -22,6 +22,7 @@ int main() {
         }else{
             
           Node* newNode = new Node(n);
+          
         if (head == nullptr) {
             head = tail = newNode;
         } else {
