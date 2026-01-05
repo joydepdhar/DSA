@@ -6,6 +6,7 @@ int main() {
     int y;
     cin>>x>>y;
     int conv=1;
+    
     cout<<x<<" "<<y;
     
     return 0;
